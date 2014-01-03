@@ -14,7 +14,6 @@
 		6F4678751876782000445F3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4678741876782000445F3F /* main.m */; };
 		6F4678791876782000445F3F /* JBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4678781876782000445F3F /* JBAppDelegate.m */; };
 		6F46787C1876782000445F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F46787A1876782000445F3F /* Main.storyboard */; };
-		6F46787F1876782000445F3F /* JBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F46787E1876782000445F3F /* JBViewController.m */; };
 		6F4678811876782000445F3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4678801876782000445F3F /* Images.xcassets */; };
 		6F4678881876782000445F3F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4678871876782000445F3F /* XCTest.framework */; };
 		6F4678891876782000445F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4678681876782000445F3F /* Foundation.framework */; };
@@ -46,8 +45,6 @@
 		6F4678771876782000445F3F /* JBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAppDelegate.h; sourceTree = "<group>"; };
 		6F4678781876782000445F3F /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
 		6F46787B1876782000445F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6F46787D1876782000445F3F /* JBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBViewController.h; sourceTree = "<group>"; };
-		6F46787E1876782000445F3F /* JBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBViewController.m; sourceTree = "<group>"; };
 		6F4678801876782000445F3F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6F4678861876782000445F3F /* SearchBarHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchBarHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4678871876782000445F3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -120,8 +117,6 @@
 				6F46787A1876782000445F3F /* Main.storyboard */,
 				6F6B0D67187689D50091C95E /* JBTableViewController.h */,
 				6F6B0D68187689D50091C95E /* JBTableViewController.m */,
-				6F46787D1876782000445F3F /* JBViewController.h */,
-				6F46787E1876782000445F3F /* JBViewController.m */,
 				6F4678801876782000445F3F /* Images.xcassets */,
 				6F46786F1876782000445F3F /* Supporting Files */,
 			);
@@ -257,7 +252,6 @@
 			files = (
 				6F4678791876782000445F3F /* JBAppDelegate.m in Sources */,
 				6F6B0D69187689D50091C95E /* JBTableViewController.m in Sources */,
-				6F46787F1876782000445F3F /* JBViewController.m in Sources */,
 				6F4678751876782000445F3F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
