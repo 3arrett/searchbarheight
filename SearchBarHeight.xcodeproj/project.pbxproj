@@ -21,6 +21,7 @@
 		6F46788A1876782000445F3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F46786C1876782000445F3F /* UIKit.framework */; };
 		6F4678921876782000445F3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F4678901876782000445F3F /* InfoPlist.strings */; };
 		6F4678941876782000445F3F /* SearchBarHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4678931876782000445F3F /* SearchBarHeightTests.m */; };
+		6F6B0D69187689D50091C95E /* JBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6B0D68187689D50091C95E /* JBTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6F46788F1876782000445F3F /* SearchBarHeightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchBarHeightTests-Info.plist"; sourceTree = "<group>"; };
 		6F4678911876782000445F3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6F4678931876782000445F3F /* SearchBarHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBarHeightTests.m; sourceTree = "<group>"; };
+		6F6B0D67187689D50091C95E /* JBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTableViewController.h; sourceTree = "<group>"; };
+		6F6B0D68187689D50091C95E /* JBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				6F4678771876782000445F3F /* JBAppDelegate.h */,
 				6F4678781876782000445F3F /* JBAppDelegate.m */,
 				6F46787A1876782000445F3F /* Main.storyboard */,
+				6F6B0D67187689D50091C95E /* JBTableViewController.h */,
+				6F6B0D68187689D50091C95E /* JBTableViewController.m */,
 				6F46787D1876782000445F3F /* JBViewController.h */,
 				6F46787E1876782000445F3F /* JBViewController.m */,
 				6F4678801876782000445F3F /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F4678791876782000445F3F /* JBAppDelegate.m in Sources */,
+				6F6B0D69187689D50091C95E /* JBTableViewController.m in Sources */,
 				6F46787F1876782000445F3F /* JBViewController.m in Sources */,
 				6F4678751876782000445F3F /* main.m in Sources */,
 			);
@@ -461,6 +467,7 @@
 				6F4678991876782000445F3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F46789A1876782000445F3F /* Build configuration list for PBXNativeTarget "SearchBarHeightTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				6F46789C1876782000445F3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
