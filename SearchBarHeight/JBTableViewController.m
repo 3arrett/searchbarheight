@@ -67,4 +67,10 @@
     return cell;
 }
 
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    // zeantsoi's suggestion
+    [searchBar setFrame:CGRectMake(0, 0, 320, 44)];
+}
+
 @end
